@@ -199,7 +199,8 @@ position: relative;
 
 #social i { 
   text-decoration: none; 
-  color: #FFCC4F; 
+  color: #FFCC4F;
+  margin-right: 2em;
 }
 
 i {
