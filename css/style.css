@@ -200,13 +200,13 @@ position: relative;
 
 #social i { 
   text-decoration: none; 
-  color: #FFCC4F;
+  color: #FFF;
   margin-right: 2em;
 }
 
 i {
   border-radius: 50%;
-  border: 3px solid #FFCC4F;
+  border: 3px solid #fff;
   padding: 14px;
 
 }
