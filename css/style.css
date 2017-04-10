@@ -189,7 +189,7 @@ position: relative;
 }
 
 #social { 
-  color: #FFCC4F; 
+  color: #fff; 
   font-family:"lato"; 
   font-size: 14px; 
   /*margin-top: 100px; */
@@ -200,7 +200,7 @@ position: relative;
 
 #social i { 
   text-decoration: none; 
-  color: #FFF;
+  color: #fff;
   margin-right: 2em;
 }
 
