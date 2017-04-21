@@ -39,6 +39,11 @@ position: center;
 
 }
 
+img {
+    width: 50%;
+    height: auto;
+}
+
 p {
 font-family: 'josefin slab 300';
 font-weight: normal;
