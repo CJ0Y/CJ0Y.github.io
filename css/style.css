@@ -39,10 +39,6 @@ position: center;
 
 }
 
-img {
-    width: 50%;
-    height: auto;
-}
 
 img.resize {
    max-width:50%;
