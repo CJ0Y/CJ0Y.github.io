@@ -212,7 +212,8 @@ i {
 
 }
 
-#home, #work { width: 100%; 
+#home, #work { 
+  width: 100%; 
 }
 
 #hero {
@@ -227,7 +228,7 @@ background-size: cover;
 #work {
 background-color: #667686;
 color: #FFCC4F;
-height: 100px;
+height: 300px;
 margin: 0 auto;
 overflow: hidden;
 padding: 200px 0;
