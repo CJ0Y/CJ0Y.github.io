@@ -6,6 +6,7 @@ body {
 }
 
 h1 {
+  /*background-color: rgba(38, 39, 59, 0.23);*/
   font-family: 'lato';
   font-weight: 00;
   font-size: 75px;
@@ -40,15 +41,14 @@ position: center;
 }
 
 
+
 p {
 font-family: 'josefin slab 300';
 font-weight: normal;
 font-size: 5px;
 text-align: left;
 margin: 5px 0;
-padding: 60px;
-width: 420px;
-float: left;
+padding: 0;
 z-index: 10;
 position: relative;
 
@@ -60,10 +60,10 @@ position: relative;
 
 #header {
   width: 100%;
-  background-color: #fff;
-  font-color: #000;
+  background-color: ;
+  font-color: #FFCC4F;
   font-family: 'lato';
-  font-size: 25px;
+  font-size: 20px;
   height: 60px;
   position: fixed;
   z-index: 100;
@@ -83,8 +83,7 @@ position: relative;
   float: left; 
   font-size: 25px; 
   margin-top: 20px; 
-  color: #000; 
-  font-family: 'Lato 300', sans-serif; 
+  /*font-family: 'Lato 300', sans-serif; */
   font-weight: lighter; 
 
 }
@@ -96,11 +95,12 @@ position: relative;
   list-style: none;
 }
 
-#nav li{
+#nav li {
   margin-top: -10px;
   float: left;
   padding-left: 15px;
 }
+
 #nav li a { 
   color: #000; 
   font-size: 16px; 
@@ -120,6 +120,7 @@ position: relative;
 
 .work {
 
+
 }
 
 .about {
@@ -129,7 +130,7 @@ position: relative;
 .quotes {
   font-family: 'Josefin Slab', serif;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 32px;
   text-align: left;
   margin: 50px auto;
 /*  padding: 50px;
@@ -183,14 +184,14 @@ position: relative;
 
 .scroll {
   text-align: center;
-  color: #FFCC4F;
+  color: #fff;
   font-size: 30px;
   margin-top: 170px;
 
 }
 
 #social { 
-  color: #fff; 
+  color: #FFCC4F; 
   font-family:"lato"; 
   font-size: 14px; 
   /*margin-top: 100px; */
@@ -201,8 +202,7 @@ position: relative;
 
 #social i { 
   text-decoration: none; 
-  color: #fff;
-  margin-right: 2em;
+  color: #fff; 
 }
 
 i {
@@ -212,11 +212,12 @@ i {
 
 }
 
-#home, #work { width: 100%; 
+#home, #work { 
+  width: 100%; 
 }
 
 #hero {
-background:url('https://github.com/CJ0Y/CJ0Y.github.io/blob/master/images/Slice1.jpeg?raw=true') 50% 0 no-repeat fixed;
+background:url('/Users/Candy/Documents/Developer/Stockimages/slice1.jpeg') 50% 0 no-repeat fixed;
 color: #fff;
 height: 300px;
 margin: 0;
@@ -227,14 +228,14 @@ background-size: cover;
 #work {
 background-color: #667686;
 color: #FFCC4F;
-height: 300px;
 margin: 0 auto;
 overflow: hidden;
-padding: 200px 0;
+padding: 100px 0;
+
 }
 
 #quote {
-background: url('https://github.com/CJ0Y/CJ0Y.github.io/blob/master/images/buda.jpeg?raw=true') 50% 0 no-repeat fixed;
+background: url(/Users/Candy/Documents/Developer/Stockimages/buda.jpeg) 50% 0 no-repeat fixed;
 color: #fff;
 height: 600px;
 padding: 170px 0 0 0;
