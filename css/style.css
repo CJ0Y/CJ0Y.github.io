@@ -40,11 +40,6 @@ position: center;
 }
 
 
-img.resize {
-   max-width:50%;
-   max-height:50%;
-}
-
 p {
 font-family: 'josefin slab 300';
 font-weight: normal;
